@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    font-family: Alfa Slab One;
+    background-color: rgb(41, 111, 148);
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.encabezado img {
+    background-color: aliceblue;
+    width: auto;
+    height: 150px;
+    border-radius: 10px
+
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.juego{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#titulo{
+    font-size: 70px;
+    color: orangered;
+    background-color: white;
+
+}
+
+
+.tiradas{
+    display: flex;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.tiradas img{
+    width: 200px;
+    border: 10px solid goldenrod;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.mensajes{
+    color: goldenrod;
+    font-size: 50px;
+}
+
+.boton img{
+    width: 200px;
+    height: auto;
+}
